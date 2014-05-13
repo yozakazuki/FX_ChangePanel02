@@ -24,7 +24,7 @@ public class RootController implements Initializable {
 		ArrayList<Button> buttonList = new ArrayList<Button>();
 
 		for (int i = 0; i < 100; i++) {
-			String num = String.valueOf(i);			
+			String num = String.valueOf(i);
 			int j = i / 10;
 			int k = i % 10;
 			Button button = new Button(num);
