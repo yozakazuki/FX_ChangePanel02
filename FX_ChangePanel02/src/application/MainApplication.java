@@ -6,7 +6,7 @@ import java.net.URL;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.GridPane;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 public class MainApplication extends Application {
@@ -15,7 +15,7 @@ public class MainApplication extends Application {
 	public void start(Stage primaryStage) throws IOException {
 		URL url = this.getClass().getResource("view/fxml/RootLayout.fxml");
 		System.out.println(url);
-		GridPane root = FXMLLoader.load(url);
+		AnchorPane root = FXMLLoader.load(url);
 		Scene scene = new Scene(root);
 
 		primaryStage.setTitle("くるりんぱ");
