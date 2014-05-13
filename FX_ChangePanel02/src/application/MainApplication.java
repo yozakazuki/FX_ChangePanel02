@@ -17,7 +17,6 @@ public class MainApplication extends Application {
 		System.out.println(url);
 		AnchorPane root = FXMLLoader.load(url);
 		Scene scene = new Scene(root);
-
 		primaryStage.setTitle("くるりんぱ");
 		primaryStage.setScene(scene);
 		primaryStage.show();
