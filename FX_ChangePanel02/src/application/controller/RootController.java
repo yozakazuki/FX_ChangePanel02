@@ -22,7 +22,7 @@ public class RootController implements Initializable {
 
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 10; j++) {
-				Button button = new Button("hoge");
+				Button button = new Button("i");
 				this.grid.add(button, i, j);
 			}
 		}
